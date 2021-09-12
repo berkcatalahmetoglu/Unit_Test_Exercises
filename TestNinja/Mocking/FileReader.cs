@@ -8,11 +8,11 @@ namespace TestNinja.Mocking
     {
         string Read(string path);
     }
-    public class FileReader :IFileReader
+    public class FileReader : IFileReader
     {
         public string Read(string path)
         {
-          return  File.ReadAllText(path);
+            return File.ReadAllText(path);
         }
 
     }
